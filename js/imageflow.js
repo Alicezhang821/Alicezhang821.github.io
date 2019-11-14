@@ -293,7 +293,7 @@ function ImageFlow() {
         }
 
         var loadingP = document.getElementById(my.ImageFlowID + '_loading_txt');
-        var loadingTxt = document.createTextNode('正在加载,请稍候 ' + completed + '/' + i);
+        var loadingTxt = document.createTextNode('Loading, please wait ' + completed + '/' + i);
         loadingP.replaceChild(loadingTxt, loadingP.firstChild);
         return finished;
     };
